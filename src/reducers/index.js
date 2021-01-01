@@ -3,7 +3,7 @@ const reducer = (state = {}, action) => {
 
     switch (action.type) {
       case 'HELLO_REACT':
-          let template = 'Penis';
+          let template = 'Penisok';
           let iteration = state.iteration;
           if (!iteration || iteration === 5) {
             iteration = 1;
